@@ -29,6 +29,8 @@ Country: Country name. Nominal, the name of the country where each customer resi
 
 Countries
 
+-Series plot function summarizing Countries orders. Main focus is UK, most orders.
+
 -check the different values for the top and bottom 20 countries
 Customers and products
 
