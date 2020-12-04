@@ -20,3 +20,33 @@ CustomerID: Customer number. Nominal, a 5-digit integral number uniquely assigne
 
 Country: Country name. Nominal, the name of the country where each customer resides.
 
+
+1. Data Preparation
+
+-This Dataset contains 532619 rows and eight columns
+
+2. Exploring the content of variables
+
+Countries
+
+-check the different values for the top and bottom 20 countries
+Customers and products
+
+-Approximately 25 % of the customers are unknown or Null, and 0.2% of items were missing; these values that we'll have to remove to understand the actual data better.
+
+Canceling orders
+
+-We already have any idea of the numbers of unique transactions but let us get an accurate value of the C or canceled invoices.
+StockCode
+-How many Unique Invoices
+
+Basket price
+
+-Adding a new column with the Sales Data
+-Since we have only 22190 Unique invoices, let's analyze our customers and look at their total number of transactions made this year and their last purchase. However, in a later step, a NaN Description shows us a failed transaction, so we will have to deal with NaN values to better analyze our customers.
+
+3. Insight on merchandise
+
+Product description
+
+Labeling product categories
