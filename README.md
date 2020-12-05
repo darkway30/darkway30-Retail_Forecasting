@@ -47,8 +47,10 @@ Basket price
 -Adding a new column with the Sales Data
 -Since we have only 22190 Unique invoices, let's analyze our customers and look at their total number of transactions made this year and their last purchase. However, in a later step, a NaN Description shows us a failed transaction, so we will have to deal with NaN values to better analyze our customers.
 
-3. Insight on merchandise
+3. Insight on merchandise patterns
 
-Product description
+-Time Series Approach
 
-Labeling product categories
+Involve historical data, finding structure in the data dynamics like cyclical patterns, trends, and growth rates. A time series is a series of data points taken at successive, equally-spaced points in time that can utilize to predict future sales. 
+
+A time-series analysis model requires using historical data to forecast to examines the dataset for characteristics such as trending products, warehouse fluctuations, seasonality, and behavior patterns (Products-Customer).
