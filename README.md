@@ -53,4 +53,13 @@ Basket price
 
 Involve historical data, finding structure in the data dynamics like cyclical patterns, trends, and growth rates. A time series is a series of data points taken at successive, equally-spaced points in time that can utilize to predict future sales. 
 
-A time-series analysis model requires using historical data to forecast to examines the dataset for characteristics such as trending products, warehouse fluctuations, seasonality, and behavior patterns (Products-Customer).
+A Time Series Analysis model requires using historical data to forecast to examines the dataset for characteristics such as trending products, warehouse fluctuations, seasonality, and behavior patterns (Products-Customer).
+
+At its core, this is a time series problem: given some data in time, we want to predict the dynamics of that same data in the future. To do this, we require some trainable models of these dynamics.
+
+We will focus on the time series analysis approach, which has been the driving force behind traditional forecasting methods. It can give a comprehensive layout of the forecasting landscape.
+
+When looking at time-series data, one element that we are looking for is a pattern that repeats in time. We need a specific column to analyze, like data/ sales per country, region, or Customer.
+
+First, we plot the data using statsmodels.
+Seeing a trend outlines a tendency known in our data; it could be the trend of an item/description that seems the market demands or not. Sales Forecasting identifying a trend supports us to know the bias that our time-series is going, which is necessary for predicting the future of sales.
